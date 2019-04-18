@@ -1,0 +1,32 @@
+.navbar {
+    padding: 20px;
+    margin-bottom: 150px;
+    font-family: 'Cormorant SC';
+    box-shadow: 3px 1px 5px 1px rgb(19, 13, 8);
+    background-image: linear-gradient(to bottom right, rgb(17, 55, 112), rgb(20, 89, 146));
+    position: absolute;
+    width: 100%;
+    z-index: 95;
+    white-space: nowrap;
+    color: white;
+}
+
+.btn {
+    color: white;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.selected {
+    background-color: rgb(194, 194, 194);
+    color: rgb(53, 52, 52);
+}
+
+.btn:hover {
+    background-color: rgb(194, 194, 194);
+    color: rgb(53, 52, 52);
+}
+
+.text-center {
+    margin-left: 320px;
+}

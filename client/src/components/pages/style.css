@@ -1,0 +1,284 @@
+.jumbotron .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 80;
+    height: auto;
+    background: linear-gradient(rgb(95, 94, 94), rgb(49, 49, 49));
+    opacity: 0.5;
+}
+
+.jumbotron {
+    width: 100%;
+    margin-bottom: 0; 
+    position: relative;
+    padding: 0;
+    height: 100%;
+    background: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('./images/North-Bend-Park-Campground.jpg');
+}
+
+.rentContainer {
+    width: 980px;
+    margin-top: 125px;
+    margin-bottom: 50px;
+    text-align: center;
+    height: auto;
+    position: absolute;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    overflow: auto;
+    display: flex;
+}
+
+.returnContainer {
+    width: 980px;
+    margin-top: 125px;
+    margin-bottom: 50px;
+    text-align: center;
+    height: auto;
+    position: absolute;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    overflow: auto;
+    display: flex;
+}
+
+.inventoryContainer {
+    width: 980px;
+    margin-top: 125px;
+    margin-bottom: 50px;
+    text-align: center;
+    height: auto;
+    position: absolute;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    overflow: auto;
+    display: flex;
+}
+
+.caption {
+    text-align: center;
+    position: absolute; 
+    letter-spacing: 4px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(248, 248, 248);
+    -webkit-text-stroke: 1px white;
+    text-shadow: 0px 2px 3px #555;
+    top: 0; 
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+    height:100px; 
+    display: inline-block; 
+    margin: auto; 
+    z-index: 100;
+}
+
+#header-mount {
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.sub-header {
+    margin-top: 10px;
+    font-style: italic;
+    color: rgb(248, 248, 248);
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+.rent-page-cont {
+    box-shadow: 3px 14px 33px 0px rgba(136, 136, 136, 0.5);
+    border: 2px solid #97aff1;
+    border-radius: 1em;
+    background-color: #f5f5f5;
+    float: left;
+    margin-right: 100px;
+    width: 490px;
+    height: auto;
+    max-height: 350px;
+    overflow-y: auto;
+    padding: 0;
+}
+
+.maint-page-cont {
+    box-shadow: 3px 14px 33px 0px rgba(136, 136, 136, 0.5);
+    border: 2px solid #f19797;
+    border-radius: 1em;
+    background-color: #f5f5f5;
+    float: right;
+    width: 490px;
+    height: auto;
+    max-height: 350px;
+    overflow-y: auto;
+    padding: 0;
+}
+
+.rent-cont-header {
+    padding: 3px;
+    background-color: rgb(216, 216, 216);
+    border-bottom: 1px solid #6b7aa8;
+    text-align: center;
+}
+
+.rent-cont-title {
+    font-family: 'Heebo', sans-serif;
+    font-weight: bolder;
+    color: #3f5697;
+    letter-spacing: 3px;
+}
+
+.fa-arrow-alt-circle-right {
+    margin-left: 5px; 
+}
+
+.maint-cont-header {
+    padding: 3px;
+    background-color: rgb(216, 216, 216);
+    border-bottom: 1px solid #a86b6b;
+    text-align: center;
+}
+
+.maint-cont-title {
+    font-family: 'Heebo', sans-serif;
+    font-weight: bolder;
+    color: #973f3f;
+    letter-spacing: 3px;
+}
+
+.checkout-container {
+    width: 980px;
+    margin-top: 125px;
+    margin-bottom: 50px;
+    text-align: center;
+    height: auto;
+    position: absolute;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    overflow: auto;
+    display: flex;
+}
+
+.fa-tools {
+    margin-left: 5px; 
+}
+
+.invContainer {
+    width: 980px;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    text-align: center;
+    height: auto;
+    position: absolute;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    overflow: auto;
+    display: flex;
+}
+
+.maintUL, .customerUL {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.customerUL {
+    text-align: left;
+}
+
+.customerUL h3 {
+    text-align: center;
+}
+
+.maintLI, .customerLI {
+    border: 1px solid black;
+    padding: 5px 35px 5px 35px;
+}
+
+.customerLI {
+    padding-top: 15px;
+    background: white;
+}
+
+.customer-btn {
+    margin-top: 40px;
+    float: right;
+}
+
+.update {
+    margin-top: 30px;
+}
+
+.all-maint-btn {
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    background-image: linear-gradient(to bottom right, rgb(17, 55, 112), rgb(20, 89, 146));
+    padding: 23px;
+    width: 100%;
+    height: 10px;
+    color: white;
+    font-style: italic;
+    position: sticky;
+    box-shadow: 6px 3px 10px 2px rgb(19, 13, 8);
+    z-index: 99;
+}
+
+.footer p {
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+
+@media only screen and (min-height: 700px) {
+    /* For large laptop: */
+    .wrapper {
+        height: 700px;
+    }
+}
+
+@media only screen and (min-height: 740px) {
+    /* For large laptop: */
+    .wrapper {
+        height: 750px;
+    }
+}
+
+
+@media only screen and (min-height: 795px) {
+    /* For large laptop: */
+    .wrapper {
+        height: 775px;
+    }
+}
+
+@media only screen and (min-height: 823px) {
+    /* For large laptop: */
+    .wrapper {
+        height: 875px;
+    }
+}
+
+@media only screen and (min-height: 855px) {
+    /* For large laptop: */
+    .wrapper {
+        height: 930px;
+    }
+}
+
+@media only screen and (min-height: 1050px) {
+    /* For large laptop: */
+    .wrapper {
+        height: 1000px;
+    }
+}
